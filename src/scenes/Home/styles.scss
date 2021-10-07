@@ -128,14 +128,14 @@ body {
   }
 
   .card {
+    
     cursor: pointer;
     margin: auto;
     padding: 2em;
     border-radius: 1em;
     border: 1px solid #000;
     text-shadow: 0 0 1em transparentize($black, 0.5);
-    background: #6bbcd4; // transparentize(#6bbcd4, 1);
-    backdrop-filter: blur(20px);
+    background:linear-gradient(135deg, #17ead9 0%,#6078ea 100%);
     transform: perspective(500px);
     transform-style: preserve-3d;
 
